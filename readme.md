@@ -35,5 +35,9 @@ AWS_SERVICES=s3,dynamodb npm run build
 ```
 
 
+#### Thanks
+Thanks to [Francois Ward](https://github.com/phoenixmatrix) for getting me started and [Chris Radek](https://github.com/chrisradek) for [this post demoing the Webpack configuration](https://github.com/aws/aws-sdk-js/issues/603#issuecomment-212479600).
+
+
 #### License
 MIT
