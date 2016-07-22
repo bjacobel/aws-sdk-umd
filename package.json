@@ -1,0 +1,30 @@
+{
+  "name": "aws-sdk-umd",
+  "version": "0.0.1",
+  "description": "UMD wrapper around the AWS SDK.",
+  "main": "dist/aws-sdk-umd.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjacobel/aws-sdk-umd.git"
+  },
+  "keywords": [
+    "AWS"
+  ],
+  "author": "Brian Jacobel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjacobel/aws-sdk-umd/issues"
+  },
+  "homepage": "https://github.com/bjacobel/aws-sdk-umd#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.4.9",
+    "json-loader": "^0.5.4",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.13.1"
+  }
+}
