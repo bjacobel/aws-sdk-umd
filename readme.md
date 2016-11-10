@@ -1,5 +1,7 @@
 ## aws-sdk-umd
 
+>## Note:
+>The AWS SDK now natively supports being loaded with Webpack. [See this GitHub issue for more details](https://github.com/aws/aws-sdk-js/issues/603). This library is unmaintained, so if you use Webpack yourself I would suggest integrating `aws-sdk@^2.6.0` in your build directly rather than through this library.
 
 Exports the [AWS SDK for Node.js](https://aws.amazon.com/sdk-for-node-js/) as a [UMD module](https://github.com/umdjs/umd). Drops the `fs` dependency so the Node version of the SDK can be used in the browser (or in React Native).
 
